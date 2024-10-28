@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: whitesmoke;
+
+
+}
+
+.background {
+    background: url("../image/hero_img.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+header {
+    top: 0;
+    content: "";
+    background: url("../image/hero_img.jpg") no-repeat center center/cover;
+    position: sticky;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px -45px 82px black;
+    flex-wrap: wrap;
+
+
+
+
+
+
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_list ul {
+    display: flex;
+    gap: 5vw;
+    list-style: none;
+
+}
+
+.nav_list ul li {
+    font-size: 2vh;
+    font-weight: 550;
+}
+
+.nav_list ul i {
+    font-size: 1.5vw;
+    align-items: center;
+    display: none;
+
+}
+
+.nav_list a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_list a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    margin-left: 5vw;
+    height: 2.5em;
+}
+
+.search {
+    margin-left: 20px;
+}
+
+section {
+    margin: 15vmin 15vmin 0vmin 15vmin;
+}
+
+.intro {
+    display: flex;
+    padding-top: 5vh;
+}
+
+.about {
+    margin-right: 9vw;
+}
+.about span {
+    font-size: 1.5vmax;
+    font-weight: 550;
+}
+
+#bio {
+    color: rgb(118, 17, 165);
+}
+
+.about p {
+    font-size: 1.5vmax;
+    font-weight: 550;
+    color: #525151;
+}
+
+
+.about h1 {
+    color: rgb(14, 7, 86);
+    font-size: 4vmax;
+    margin-top: 0.11em;
+    margin-bottom: 0.11em;
+}
+
+.dp img {
+    right: 10%;
+    height: 20vmax;
+    border-radius: 50%;
+    border: 0.2vmax solid grey;
+    box-shadow: 10px 10px 30px grey;
+
+}
+.flash i {
+    font-weight: 600;
+}
+.flash {
+    display: flex;
+    width: 35vmax;
+    top: 90%;
+    position: absolute;
+    border-radius: 2em;
+    background-color: gray;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 18px 2px black;
+    font-size: 1vmax;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.flash:hover {
+    scale: 1.1;
+
+}
+
+.flash_in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flash_in i {
+    font-size: 2vmax;
+    padding-right: 0.85vmax;
+}
+.mid {
+    padding: 0px 0px 0px 0px;
+    background-color: #e1e2e3;
+    border-radius: 20px;
+}
+
+.about_heading span,
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_heading span {
+    padding-top: 0.5em;
+    color: black;
+    font-size: 2.2vmax;
+
+}
+
+.about_heading h2 {
+    color: rgb(10, 51, 87);
+    text-shadow: 3px 3px 1.5px #136c7989;
+    font-size: 5.5vmax;
+    line-height: 0px;
+}
+
+.about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 100px 0px 100px;
+    color: rgb(0, 0, 0);
+}
+
+.about_me p {
+    font-size: 1.5em;
+    text-align: left;
+
+}
+
+.para {
+    padding: 2em 2em 0em 2em;
+    flex-wrap: wrap;
+}
+
+.about_me img {
+    height: 12vmax;
+    border-radius: 20%;
+}
+
+.skills_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vmax;
+}
+
+.skills {
+    padding-top: 2vmax;
+    padding-bottom: 20px;
+}
+
+
+.skills_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.skills_box_in {
+
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #48b3da;
+    height: 15vmax;
+    width: 15vmax;
+    transition: all 0.4s ease-in-out;
+}
+
+.skills_box_in:hover {
+    background-color: #f0f9ff;
+    color: black;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.skills_box_in_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: rgb(10, 51, 87);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.skills_box_in span {
+    display: flex;
+    font-size: 1.8vmax;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.project_box {
+    margin: 2em;
+}
+
+.projects {
+    display: flex;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.project p {
+    font-size: 1.4vmax;
+}
+
+#project_heading {
+    font-size: 1.8vmax;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00baf2;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0095c3;
+}
+
+.project_scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.project_scroll img {
+    margin: 1.2em;
+}
+
+
+::-webkit-scrollbar .projects {
+    width: 5px;
+    height: 0px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.projects img {
+    height: 15vmax;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.projects img:active {
+    scale: 1.45;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5em;
+
+}
+
+.resume_sec {
+    font-size: 1.65em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.resume_heading h2 {
+    color: rgb(10, 51, 87);
+    text-shadow: 3px 3px 1.5px #136c7989;
+    font-size: 5.5em;
+    line-height: 0px;
+    padding: 1.5em 0em 0.5em 0em;
+
+}
+
+
+
+
+.resume_sec embed {
+    width: 100%;
+    height: 70vh;
+}
+
+.resume_sec i {
+
+    text-decoration: none;
+    color: black;
+}
+
+.resume_sec i:active {
+    color: red;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #525151;
+    width: 100%;
+    height: 30vmax;
+    color: white;
+    font-size: 2em;
+}
+
+.quote_para {
+    background-color: #3d3c3c;
+    border: 3px solid #000;
+    height: 20vmax;
+    width: 35vmax;
+    box-shadow: 0px 0px 35px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote_para span {
+
+    color: rgb(171, 240, 34);
+}
+
+
+.foot_img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3d3c3c;
+    height: 30vh;
+
+}
+
+.foot_img img {
+    height: 10vh;
+}
+
+.foot_contact_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot_contact_logo a:hover {
+    color: #bdbaba;
+}
+
+.foot_contact_logo a:active {
+    color: rgb(27, 100, 196)
+}
+
+.foot_contact_logo a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.foot_contact_logo i {
+    margin-right: 3em;
+    font-size: 1.5em;
+
+}
+
+.copywrite {
+    border: 2px soild red;
+    background-color: #000;
+    height: 40vh;
+    color: white;
+}
+
+.foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#likeIcon {
+    padding-top: 0.65em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+}
+
+
+@media (max-width:600px) {
+
+    .logo img {
+        height: 3vmax;
+    }
+
+    .navbar {
+        padding: 0px 10px;
+        height: 6vh;
+    }
+
+    .nav_list ul i {
+        display: block;
+        font-size: 3vh;
+    }
+
+    .nav_list ul li {
+        display: none;
+    }
+
+    .search {
+        display: none;
+
+    }
+
+    section {
+        margin: 10vw;
+    }
+
+    .dp {
+        display: flex;
+        position: initial;
+        padding-left: 8vw;
+    }
+
+    .dp img {
+        height: 30vh;
+        }
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
+    .intro span {
+        font-size: 17px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+
+    .intro h1 {
+
+        font-size: 6vh;
+    }
+
+    .flash {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 65vw;
+        height: 5vh;
+        /* padding-top: 0px 0px 0px 0px; */
+        margin-left: 5vw;
+        top: 100%;
+        font-size: 0.85vmax;
+    }
+
+    .about_me {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px 0px 0px;
+    }
+    .about_me p {
+        text-align: center;
+        font-size: 1em;
+    }
+    .about_heading h2 {
+        font-size: 5vmax;
+    }
+    .about_heading span {
+        padding-top: 7vh;
+    }
+    .mid {
+        margin: 2vw;
+    }
+    .skills_box_in {
+        margin-top: 10px;
+        height: 20vmax;
+        width: 20vmax;
+    }
+    #project_heading {
+        font-size: 3.2vmax;
+    } 
+
+    .project_box p{
+        font-size: 2vmax;
+    }
+    .resume_sec {
+        width: 100%;
+        font-size: 2vmax;
+        /* height: 70vmax; */
+    }
+
+    .resume_sec embed {
+        width: 100%;
+        height: 50vmax;
+    }
+
+    .resume_heading h2 {
+        font-size: 1.5em;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .quote_para {
+        width: 50vh;
+    }
+    .foot_img{
+        height: 15vmin;
+    }
+
+    .foot_img img {
+        height: 4vh;
+        padding: 0px 10px 0px 10px;
+
+    }
+
+    .foot_contact_logo {
+        
+        flex-wrap: wrap;
+        font-size: 1.22vmax;
+    }
+
+    .copywrite {
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon_copywrite {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copywrite h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    .icon_copywrite span {
+        font-size: 0.4em;
+    }
+
+    .icon_copywrite i {
+        font-size: 0.4em;
+
+
+    }
+
+
+}
